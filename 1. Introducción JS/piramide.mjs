@@ -1,9 +1,9 @@
 function piramide(n) {
-  let resultado = '';
+  let resultado = [];
   for (let ren = 1; ren <= n; ren++) {
-    resultado += '*'.repeat(ren) + '\n';
+    resultado.push('*'.repeat(ren));
   }
-  return resultado;
+  console.log(resultado.join('\n'));
 }
 
-console.log(piramide(5));
+piramide(5);
