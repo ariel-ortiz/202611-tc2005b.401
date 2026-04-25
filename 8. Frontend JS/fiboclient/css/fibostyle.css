@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+  background-color: orange;
+}
+
+#salida {
+  color: blue;
+}
+
+.bonita {
+  font-style: italic;
+  border: double 3px black;
+  padding: 20px;
+  margin: 50px;
+}
